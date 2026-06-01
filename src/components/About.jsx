@@ -37,7 +37,7 @@ const About = () => {
           >
             <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-2xl blur-xl opacity-30"></div>
             <img
-              src="https://media.licdn.com/dms/image/v2/D4E03AQHlDvU6xIt4Ag/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718242980488?e=1779321600&v=beta&t=WyspX3Qsn9ZL_v2WZyjUW2wOPB4yfLy8TGkqfjmex8g"
+              src="profile.jpg"
               alt="Profile"
               className="relative rounded-2xl shadow-2xl w-full object-cover"
             />
