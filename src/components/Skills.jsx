@@ -110,7 +110,7 @@ const Skills = () => {
             <p className="text-gray-400 text-sm">Categories</p>
           </div>
           <div className="bg-gray-900/40 rounded-xl p-4 text-center border border-gray-700">
-            <p className="text-3xl font-bold text-cyan-400">2+</p>
+            <p className="text-3xl font-bold text-cyan-400">1+</p>
             <p className="text-gray-400 text-sm">Years Exp</p>
           </div>
           <div className="bg-gray-900/40 rounded-xl p-4 text-center border border-gray-700">

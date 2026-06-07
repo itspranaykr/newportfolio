@@ -65,7 +65,7 @@ const About = () => {
             
             <div className="grid grid-cols-2 gap-4 mb-8">
               <div className="bg-gray-900/50 rounded-lg p-4 backdrop-blur-sm">
-                <p className="text-cyan-400 text-3xl font-bold">2+</p>
+                <p className="text-cyan-400 text-3xl font-bold">1+</p>
                 <p className="text-gray-400">Years Experience</p>
               </div>
               <div className="bg-gray-900/50 rounded-lg p-4 backdrop-blur-sm">
@@ -73,7 +73,7 @@ const About = () => {
                 <p className="text-gray-400">Projects Completed</p>
               </div>
               <div className="bg-gray-900/50 rounded-lg p-4 backdrop-blur-sm">
-                <p className="text-cyan-400 text-3xl font-bold">5+</p>
+                <p className="text-cyan-400 text-3xl font-bold">2+</p>
                 <p className="text-gray-400">Happy Clients</p>
               </div>
               <div className="bg-gray-900/50 rounded-lg p-4 backdrop-blur-sm">

@@ -31,7 +31,7 @@ const Home = () => {
   // ==========================================
   // Option 1: Place your CV file in the "public" folder and use: "/Pranay_Kumar_CV.pdf"
   // Option 2: Use Google Drive link or any cloud storage link
-  const cvLink = "pranayresume.pdf"  // Change this to your actual CV file path
+  const cvLink = "Pranay_Kumar_Resume2.pdf"  // Change this to your actual CV file path
 
   // ==========================================
   // Handlers for buttons

@@ -7,8 +7,19 @@ const Projects = () => {
   const [filter, setFilter] = useState('all')
   
   const projects = [
+
     {
       id: 1,
+      title: 'Bangalore House Price Prediction',
+      description: 'Intelligent real estate price prediction system that analyzes property features, location, amenities, and market trends to estimate house prices in Bangalore with high accuracy, helping buyers, sellers, and investors make informed decisions.',
+      image: 'hq720.jpg',
+      tech: ['machine learning', 'EDA', 'Streamlit', 'jupyter'],
+      category: 'ml',
+      github: 'https://github.com/itspranaykr/bangalore-house-price-prediction.git',
+      demo: 'https://bangalore-house-price-prediction-vxpw2hg74uqqn7g2numlhh.streamlit.app/',
+    },
+    {
+      id: 2,
       title: 'AI-Powered Analytics Dashboard',
       description: 'Real-time analytics dashboard with machine learning predictions and interactive visualizations.',
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
@@ -18,55 +29,46 @@ const Projects = () => {
       demo: '#',
     },
     {
-      id: 2,
-      title: 'E-Commerce Platform',
-      description: 'Full-featured e-commerce platform with payment integration and admin dashboard.',
-      image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&fit=crop',
-      tech: ['Next.js', 'Stripe', 'MongoDB', 'Tailwind'],
+      id: 3,
+      title: 'solar comapany website',
+      description: 'Designed and developed a fully responsive company website using react js',
+      image: 'solar.jpg',
+      tech: ['react.js', 'Stripe', 'MongoDB', 'Tailwind'],
       category: 'fullstack',
-      github: '#',
-      demo: '#',
+      github: 'https://github.com/itspranaykr/AGENTERPRISES.git',
+      demo: 'https://agenterprises.vercel.app',
     },
     {
-      id: 3,
+      id: 4,
+      title: 'Heart stroke prediction system',
+      description: 'Machine learning model for predicting heart stroke risk based on patient data.',
+      image: 'heart.jpg',
+      tech: ['Python', 'Scikit-learn', 'Pandas', 'NumPy'],
+      category: 'ml',
+      github: 'https://github.com/itspranaykr/Heart-Stroke-Prediction-using-ml.git',
+      demo: 'https://heart-stroke-prediction-using-ml-fvyovefb7ryn4bbwv9wlg3.streamlit.app/',
+    },
+    {
+      id: 5,
       title: 'Task Management App',
       description: 'Collaborative task management tool with real-time updates and team features.',
       image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop',
       tech: ['React', 'Firebase', 'Material-UI'],
       category: 'frontend',
-      github: '#',
+      github: 'https://github.com/itspranaykr/todo-app.git',
       demo: '#',
     },
     {
-      id: 4,
-      title: 'Portfolio Website Generator',
-      description: 'CLI tool to generate customizable portfolio websites for developers.',
-      image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop',
-      tech: ['Python', 'Jinja2', 'CSS'],
-      category: 'backend',
-      github: '#',
-      demo: '#',
-    },
-    {
-      id: 5,
+      id: 6,
       title: 'Weather Forecasting App',
       description: 'Weather app with 7-day forecast and interactive maps.',
       image: 'https://thumbs.dreamstime.com/b/weather-forecast-interface-icon-set-illustration-37639237.jpg',
       tech: ['React', 'OpenWeather API', 'Chart.js'],
       category: 'frontend',
-      github: '#',
+      github: 'https://github.com/itspranaykr/weather-card.git',
       demo: '#',
     },
-    {
-      id: 6,
-      title: 'Social Media API',
-      description: 'RESTful API for social media platform with authentication and real-time features.',
-      image: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=600&h=400&fit=crop',
-      tech: ['Node.js', 'Express', 'Socket.io', 'PostgreSQL'],
-      category: 'backend',
-      github: '#',
-      demo: '#',
-    },
+    
   ]
 
   const filters = [
@@ -74,6 +76,7 @@ const Projects = () => {
     { id: 'frontend', label: 'Frontend' },
     { id: 'backend', label: 'Backend' },
     { id: 'fullstack', label: 'Full Stack' },
+    { id: 'ml', label: 'Machine Learning' },
   ]
 
   const filteredProjects = filter === 'all' 
